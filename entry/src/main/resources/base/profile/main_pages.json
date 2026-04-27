@@ -1,0 +1,15 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/LoadingPage",
+    "pages/MainPage",
+    "pages/PersonalInfoPage",
+    "pages/SecurityPage",
+    "pages/AboutPage",
+    "pages/DeviceIdPage",
+    "pages/DeviceNamePage",
+    "pages/AvatarPickerPage",
+    "pages/AgreementPage",
+    "pages/Jiankong"
+  ]
+}

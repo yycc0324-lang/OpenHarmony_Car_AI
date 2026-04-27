@@ -1,0 +1,84 @@
+{
+  "app": {
+    "bundleName": "com.example.medicalapp",
+    "vendor": "your_company",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    }
+  },
+  "module": {
+    "package": "com.example.medicalapp",
+    "name": "entry",
+    "mainAbility": "EntryAbility",
+    "deviceType": ["phone", "tablet"],
+    "distribution": {
+      "deliveryWithInstall": true,
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "name": "EntryAbility",
+        "srcEntry": "./ets/entryability/EntryAbility.ts",
+        "description": "$string:EntryAbility_desc",
+        "label": "$string:EntryAbility_label",
+        "icon": "$media:icon"
+      }
+    ],
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.READ_MEDIA"
+      },
+      {
+        "name": "ohos.permission.WRITE_MEDIA"
+      },
+      {
+        "name": "ohos.permission.MEDIA_LOCATION"
+      },
+      {
+        "name": "ohos.permission.CAMERA"
+      },
+      {
+        "name": "ohos.permission.WRITE_USER_STORAGE"
+      },
+      {
+        "name": "ohos.permission.INTERNET"
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "@ohos.data.storage",
+        "type": "sdk",
+        "version": "9"
+      }
+    ],
+{
+  "module": {
+    "package": "com.example.demo",
+    "name": "entry",
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.INTERNET"
+      }
+    ],
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "sdkVersion": {
+      "compatible": 8,
+      "target": 9
+    },
+    "mainElement": "pages/IndexPage",
+    "features": [
+      "entry"
+    ]
+  }
+}
+  }
+}

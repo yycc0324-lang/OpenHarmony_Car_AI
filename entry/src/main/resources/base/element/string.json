@@ -1,0 +1,29 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "reason",
+      "value": "请求配置"
+    },
+    {
+      "name": "app_name",
+      "value": "MyApplication"
+    },
+    {
+      "name": "network_permission_reason",
+      "value": "需要访问互联网连接DeepSeek AI服务"
+    }
+
+  ]
+}
